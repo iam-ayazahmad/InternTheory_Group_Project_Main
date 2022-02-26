@@ -6,7 +6,7 @@ function footer(){
    
 </div>
 
-<div id="onelinetexts"><a href=""><p>REFUND & CANCELLATION POLICY</p></a><a href=""><p>COURSES</p></a><a href=""><p>TERMS AND CONDITIONS</p></a><a href=""><p>PRIVACY POLICY</p></a><a href=""><p>CONTACT US</p></a><a href=""><p>ABOUT US</p></a><a href=""><p>SITEMAP</p></a></div><div id="seperaterline"></div><div id="copyrighttext"><p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p></div>`
+<div id="onelinetexts"><a href=""><p>REFUND & CANCELLATION POLICY</p></a><a href=""><p>COURSES</p></a><a href=""><p>TERMS AND CONDITIONS</p></a><a href=""><p>PRIVACY POLICY</p></a><a href=""><p>CONTACT US</p></a><a href="AboutUsPage_ayaz.html"><p>ABOUT US</p></a><a href=""><p>SITEMAP</p></a></div><div id="seperaterline"></div><div id="copyrighttext"><p>© 2015 - 2022 INTERNTHEORY. ALL RIGHTS RESERVED.</p></div>`
 }
 
 export {footer}
