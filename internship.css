@@ -42,16 +42,68 @@
     text-align: center;
     opacity: 0.7;
 }
-#btnlogo{
+.btnlogo{
     border: 0;
     padding: 10px 25px 10px 25px;
     margin-top: 20px;
     border-radius: 5px;
 }
-#btnlogo:hover{
+.btnlogo:hover{
     color: white;
     background-color:rgb(8,124,222);
 }
+
+.btnlogo2{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo2:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo3{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo3:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo4{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo4:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo5{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo5:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+.btnlogo6{
+    border: 0;
+    padding: 10px 25px 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.btnlogo6:hover{
+    color: white;
+    background-color:rgb(8,124,222);
+}
+
 
 #searcbarcontainer{
     width: 100%;
