@@ -1,0 +1,113 @@
+#umeshregister-card{
+    height: 550px;
+    width: 500px;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color: rgb(255,255,255);
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+    #Umesh1container>div{
+        height: 42px;
+        width: 90%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 1%;
+    }
+    #background{
+        background-color: rgb(228,228,228);
+    }
+    #UmeshOR{
+        text-align: center;
+    }
+    #UmeshMyForm{
+        text-align: center;
+        line-height: 20px;
+    }
+    #headerreg {
+      letter-spacing: 0;
+      /* font-family: "Lora", serif; */
+      font-size: 40px;
+      line-height: 35px;
+      color: black;
+      margin-bottom: 20px;
+      padding: 15px 0 0 22px;
+    }
+    #input{
+      width: 80%;
+      margin: auto;
+    }
+    #input>div>input{
+      margin: 10px auto;
+      padding: 10px;
+      font-size: 15px;
+      width: 360px;
+      height: 20px;
+    }
+    #button{
+    width: 380px;
+     height: 33px;
+      margin: auto;
+      margin-top: 15px;
+      background-color:white;
+      color:rgb(225,30,46);
+      font-size: 15px;  
+      border:1px solid rgb(225,30,46);
+      font-weight: bold;
+    }
+    #Extradiv{
+        height: 52px;
+        width: 90%;
+        border: 1px dashed red;
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 5px;
+        background-color: rgb(252,239,241);
+        padding: 0 0 2px 5px;
+    }
+    #facelogo{
+        height: 42px;
+        width: 80%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 5px;
+        line-height: 5px;
+        padding: 0 45px 0 0;
+        display: flex;
+        background-color: rgb(66,103,178);
+    }
+    #googlelogo{
+        height: 42px;
+        width: 80%;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 1%;
+        border-radius: 5px;
+        line-height: 5px;
+        padding: 0 45px 0 0;
+        display: flex;
+        background-color: rgb(8,124,221);
+    }
+    #g-image>img{
+        border-radius: 50%;
+    }
+    #button:hover{
+        background-color:rgb(225,30,46);
+        color: white;
+    }
+    #facebook-text{
+        margin-left: 140px;
+        color: white;
+    }
+    #google-text{
+        margin-left: 140px;
+        color: white;
+    }
+    *{
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(24, 24, 218);
+    }
