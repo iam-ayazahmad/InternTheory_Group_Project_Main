@@ -10,7 +10,7 @@ function navbar(){
     <a href="" id=carticon2><img id="cardicon" src="https://cdn.icon-icons.com/icons2/1369/PNG/512/-shopping-cart_90604.png" alt=""></a>
     <div id="cartCount">0</div>
 
-    <a id="signinicon" href=""><div>SIGN IN</div></a>
+    <a id="signinicon" href="Login.html"><div>SIGN IN</div></a>
 
 
 </div>`

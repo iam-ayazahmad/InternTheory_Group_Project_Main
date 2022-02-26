@@ -18,5 +18,17 @@ function CONTINUE(event) {
   
 }
  document.querySelector("#submitId").addEventListener("click", function () {
+   alert("Succesfully Registered")
         window.location.href = "login.html"
     })
+
+
+
+    import { navbar } from "./Components/Navbar_ayaz.js";
+    document.querySelector("#navbar-container").innerHTML= navbar()
+    
+    
+    
+    
+    import { footer } from "./Components/footer_ayaz.js";
+    document.querySelector("#footerContainer").innerHTML= footer()
