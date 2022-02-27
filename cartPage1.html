@@ -427,7 +427,7 @@ li{
             <div id="payvia">
                 <div id="close">CREDIT CARD</div>
         
-                <div onclick="card_payment()">DEBIT CARD</div>
+                <div id="clickDabitcard">DEBIT CARD</div>
                 <div>NET BANKING</div>
                 <div>PAYTM</div>
                 <div>UPI</div>
@@ -576,7 +576,13 @@ document.querySelector("#navbar-container").innerHTML= navbar()
 import { footer } from "./Components/footer_ayaz.js";
 document.querySelector("#footerContainer").innerHTML= footer()
 
+document.querySelector("#clickDabitcard").addEventListener("click",card_payment)
 
+function card_payment(){
+
+    window.location="PaymentSuccess_ayaz.html"
+
+}
  
 </script>
 
