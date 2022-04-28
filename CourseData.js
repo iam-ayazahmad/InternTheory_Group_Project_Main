@@ -32,7 +32,10 @@ function appendOnlineData(OnlineData,main){
     div1.append(title,description)
 
     let line=document.createElement("p")
-    line.innerHTML="----------------------------------------"
+    line.innerHTML="-------------------------------------------"
+    line.style.fontWeight="1px"
+    line.style.marginTop="10px"
+    line.style.marginBottom="30px"
 
     let emi=document.createElement("p")
     emi.innerHTML=el.emi+ " "+`<i class="fa fa-question-circle-o" aria-hidden="true"></i>`

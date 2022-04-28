@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Courses</title>
+    <link rel = "icon" href = 
+"https://s3.ap-south-1.amazonaws.com/interntheory/creative/favicon.ico" 
+        type = "image/x-icon">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -12,6 +15,11 @@
     <style>
         *{
             font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        }
+        #blankspace{
+    
+            width: 100%;
+            height: 30px;
         }
         #onc_top{
             background-image: url("https://assets.interntheory.com/creative/courses/listpage/Course-bannerbg.jpg");
@@ -23,7 +31,7 @@
         }
         #top_image{
             width: 94%;
-            height: 220px;
+            height: 250px;
             margin-left: 50px;
             margin-right: 50px;   
         }
@@ -34,9 +42,27 @@
            margin-left: 10%;
            margin-top: 3%;
         }
-        #onc_certified>h2,p{
-            color: grey;
+        #onc_certified>h2{
+            color: rgba(0, 0, 0, 0.54);
+            font-weight: 400;
+            line-height: 1.75;
+            letter-spacing: 0.00938em;
+            margin-bottom: 20px;
+            
+
+            
            
+        }
+        #onc_certified p{
+            line-height: 20px;
+            color: rgba(0, 0, 0, 0.54);
+        }
+        .div1 p{
+            line-height: 20px;
+            text-align: center;
+            font-size: small;
+            color: rgba(0, 0, 0, 0.54);
+            margin: 0px 5px;
         }
         #onc_main{
             margin: auto;
@@ -101,10 +127,12 @@
            background: none;
            border: none;
            font-weight: bold;
+           border-radius: 5px;
         }
         .know:hover{
             cursor: pointer;
-            background-color: rgb(193, 211, 205);
+            background-color: rgb(224, 243, 255);
+
         }
         .div3{
             margin-top: -12px;
@@ -119,12 +147,12 @@
           background-color: rgb(187, 35, 35);
             color: white;
             font-weight: 600;
-            padding: 10px;
+            padding: 8px;
             border: 0;
-            border-radius: 3px;
+            border-radius: 5px;
       }
       .btn:hover{
-        background-color:rgb(29, 9, 9) ;
+        background-color:rgb(126, 19, 19) ;
         cursor: pointer;
       }
       #firstcourse{
@@ -357,6 +385,75 @@ li{
     margin-top: -12px;
     border: 0px;
 }
+
+
+
+/* styling For Sidebar */
+
+#sidebar_container{
+    display: none;
+    
+}
+#overallpage{
+    height: 100%;
+    width: 100.1%;
+    margin-left: -10px;
+    position: fixed;
+    background-color: rgba(15, 3, 3, 0);
+    top: 0;
+    display: flex;
+    
+}
+#leftSidebar{
+    background-color: white;
+    height: 100%;
+    width: 16%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+#leftSidebar a{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #212121;
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    justify-content: flex-start;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5em;
+    border-radius: 0;
+    vertical-align: middle;
+    text-transform: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.mysideicons{
+    width: 15px;
+    margin: 0px 20px 0px 0px;
+   
+}
+.Mysideoptions:hover{
+    background-color: rgb(216, 214, 214);
+
+
+}
+#optionforcloseside{
+    width: 84%;
+    height: 100%;
+   
+    background-color: rgba(15, 3, 3, 0);
+}
+
+
+
     </style>
 </head>
 <body>
@@ -387,6 +484,8 @@ li{
             <h2>Certified Online Courses</h2>
             <p>Upgrade your skills with Intern Theory's online learning platform. Enrol for any certified online courses and get a step ahead of competition. Select from a range of skill based online courses and kickstart your career.</p>
         </div>
+
+        <div id="blankspace"></div>
         <div id="onc_main">
 
         </div>
@@ -396,6 +495,36 @@ li{
     </div>
     <div id="footerContainer"></div>
     </div>
+    <div id="sidebar_container" >
+        <div id="overallpage">
+            <div id="leftSidebar">
+                <div style="margin-top: 50px;" class="Mysideoptions"><a href=""><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg>Home</a></div>
+    
+    
+                <div class="Mysideoptions"><a href="internship.html"><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg>Internship <img src="" alt=""></a></div>
+    
+    
+    
+                <div class="Mysideoptions"><a href="internship.html"><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"></path></svg>Jobs</a></div>
+    
+    
+                <div class="Mysideoptions"><a href="internship.html"><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path fill="none" d="M0 0h24v24H0z"></path><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></svg>Post Intership</a></div>
+    
+                <div class="Mysideoptions"><a href="onlinecourses.html"><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path fill="none" d="M0 0h24v24H0z"></path><path d="M18 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 4h5v8l-2.5-1.5L6 12V4z"></path></svg>Courses</a></div>
+    
+    
+                <div class="Mysideoptions"><a href=""><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"></path></svg>Constract Us</a></div>
+    
+                <hr>
+                <div class="Mysideoptions"><a href="register.html"><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M3 18h12v-2H3v2zM3 6v2h18V6H3zm0 7h18v-2H3v2z"></path><path fill="none" d="M0 0h24v24H0V0z"></path></svg>Register</a></div>
+    
+    
+                <div class="Mysideoptions"><a href="Login.html"><svg class="mysideicons" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation"><path d="M14 6v15H3v-2h2V3h9v1h5v15h2v2h-4V6h-3zm-4 5v2h2v-2h-2z"></path></svg>Login</a></div>
+    
+            </div>
+            <div id="optionforcloseside"></div>
+        </div>
+    </div>
 </body>
 </html>
 <script type="module">
@@ -404,13 +533,13 @@ let OnlineData=[
     {images:"https://assets.interntheory.com/creative/courses/thumbnails/it.jpg",
     title:"IT Starter Pack (4 Courses)",description:"Learn the most demanded skills in the IT industry today. Sig ...",
     strikethrough_Price:"₹ 32999",Price:15999,know:"KNOW MORE",emi:"EMI Starting at ₹ 915/month"},
-    {images:"https://assets.interntheory.com/creative/courses/thumbnails/finthumbnail.jpg",title:"Finance Starter Pack (3 Courses)",description:"Learn the most demanded skills in the Finance industry today ...",strikethrough_Price:"₹ 23999",Price:11999,know:"KNOW MORE",emi:"EMI Starting at ₹ 687/month",incart:0},
-    {images:"https://assets.interntheory.com/creative/courses/thumbnails/digital-marketing-course.png",title:"Digital Marketing Course",description:"Learn the art of digital marketing. Sign up for this online ...",strikethrough_Price:"₹ 11999",Price:5999,know:"KNOW MORE",emi:"EMI Starting at ₹ 343/month",incart:0},
+    {images:"https://assets.interntheory.com/creative/courses/thumbnails/finthumbnail.jpg",title:"Finance Starter Pack",description:"Learn the most demanded skills in the Finance industry today ...",strikethrough_Price:"₹ 23999",Price:11999,know:"KNOW MORE",emi:"EMI Starting at ₹ 687/month",incart:0},
+    {images:"https://assets.interntheory.com/creative/courses/thumbnails/digital-marketing-course.png",title:"Digital Marketing Course",description:"Learn the art of digital marketing. Sign up for this...",strikethrough_Price:"₹ 11999",Price:5999,know:"KNOW MORE",emi:"EMI Starting at ₹ 343/month",incart:0},
     {images:"https://assets.interntheory.com/creative/courses/thumbnails/stock-market-course.png",title:"Stock Market Course",description:"Learn how to trade and invest in stock markets. Enrol for th ...",strikethrough_Price:"₹ 11999",Price:5999,know:"KNOW MORE",emi:"EMI Starting at ₹ 343/month"},
-    {images:"https://assets.interntheory.com/creative/courses/thumbnails/data-analytics-r-programming-course.png",title:"Data Analytics With R Programming Course",description:"Learn data science online. Join this online data analytics c ...",strikethrough_Price:"₹ 11999",Price:5999,know:"KNOW MORE",emi:"EMI Starting at ₹ 343/month",incart:0},
+    {images:"https://assets.interntheory.com/creative/courses/thumbnails/data-analytics-r-programming-course.png",title:"Data Analytics Course",description:"Learn data science online. Join this online data analytics c ...",strikethrough_Price:"₹ 11999",Price:5999,know:"KNOW MORE",emi:"EMI Starting at ₹ 343/month",incart:0},
     {images:"https://assets.interntheory.com/creative/courses/thumbnails/web-development-course.png",title:"Web Development Course",description:"Learn the art of web design and web development. Join this o ...",strikethrough_Price:"₹ 7999",Price:3999,know:"KNOW MORE",emi:"EMI Starting at ₹ 229/month"},
     {images:"https://assets.interntheory.com/creative/courses/thumbnails/tally-gst-course.png",title:"Tally + GST Course",description:"Sign up for this online tally and gst course and learn how t ...",strikethrough_Price:"₹ 7999",Price:3999,know:"KNOW MORE",emi:"EMI Starting at ₹ 229/month"},
-    {images:"https://assets.interntheory.com/creative/courses/thumbnails/android-app-development-kotlin-course.png",title:"Android App Development Using Kotlin Course",description:"Learn the art of android app design and web development. Joi ",strikethrough_Price:"₹ 7999",Price:3999,know:"KNOW MORE",emi:"EMI Starting at ₹ 229/month",incart:0},
+    {images:"https://assets.interntheory.com/creative/courses/thumbnails/android-app-development-kotlin-course.png",title:"Android App Development",description:"Learn the art of android app design and web development.. ",strikethrough_Price:"₹ 7999",Price:3999,know:"KNOW MORE",emi:"EMI Starting at ₹ 229/month",incart:0},
     {images:"https://assets.interntheory.com/creative/courses/thumbnails/advanced-excel-course.png",title:"Advanced Excel Course",description:"Master MS Excel. Take the online ms excel course and learn t ...",strikethrough_Price:"₹ 5999",Price:2999,know:"KNOW MORE",emi:"EMI Starting at ₹ 172/month",incart:0},
     {images:"https://assets.interntheory.com/creative/courses/thumbnails/r-programming-course.png",title:"R Programming Course",description:"Learn r programming online. Sign up for this online r progra ...",strikethrough_Price:"₹ 5999",Price:2999,know:"KNOW MORE",emi:"EMI Starting at ₹ 172/month",incart:0},
 ]
@@ -481,6 +610,27 @@ for(let i=0;i<addbuton.length;i++){
 import { footer } from "./Components/footer_ayaz.js";
 document.querySelector("#footerContainer").innerHTML= footer()
 
+
+
+document.querySelector("#optionIcon").addEventListener("click",opensideBar)
+function opensideBar(){
+
+   var sidebar= document.querySelector("#sidebar_container")
+   sidebar.style.display="flex"
+
+}
+
+
+
+
+
+document.querySelector("#optionforcloseside").addEventListener("click",closesideBar)
+function closesideBar(){
+
+    var sidebar= document.querySelector("#sidebar_container")
+   sidebar.style.display="none"
+   
+}
  
 </script>
 

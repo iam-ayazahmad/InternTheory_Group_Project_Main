@@ -319,3 +319,70 @@ li{
     margin-top: -12px;
     border: 0px;
 }
+
+
+/* styling For Sidebar */
+
+#sidebar_container{
+    display: none;
+    
+}
+#overallpage{
+    height: 100%;
+    width: 100.1%;
+    margin-left: -10px;
+    position: fixed;
+    background-color: rgba(15, 3, 3, 0);
+    top: 0;
+    display: flex;
+    
+}
+#leftSidebar{
+    background-color: white;
+    height: 100%;
+    width: 16%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+#leftSidebar a{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    text-decoration: none;
+    color: #212121;
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    justify-content: flex-start;
+    text-decoration: none;
+    user-select: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5em;
+    border-radius: 0;
+    vertical-align: middle;
+    text-transform: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.mysideicons{
+    width: 15px;
+    margin: 0px 20px 0px 0px;
+   
+}
+.Mysideoptions:hover{
+    background-color: rgb(216, 214, 214);
+
+
+}
+#optionforcloseside{
+    width: 84%;
+    height: 100%;
+   
+    background-color: rgba(15, 3, 3, 0);
+}
+
+
