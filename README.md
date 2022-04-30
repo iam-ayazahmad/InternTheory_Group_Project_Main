@@ -21,6 +21,11 @@ Intern theory website provides an opportunity to get an internship with a handso
 3. Advance JAVASCRIPT
 4. LOCALSTORAGE.
 
+### Team Members:
+1. Ayaz Ahmad
+2. Umesh Yadav
+3. Rahul Gaur
+
 
 
 ## Pages Included:
