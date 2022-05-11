@@ -16,7 +16,7 @@ document.querySelector("#button").addEventListener("click", CONTINUE);
       if(final==true)
       {
         alert("Login Successfull!");
-          window.location.href = "Landing_Page_Ayaz.html"
+          window.location.href = "index.html"
       }
       else{
         alert("Invalid Username of password")
